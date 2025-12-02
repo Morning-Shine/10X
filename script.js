@@ -25,7 +25,7 @@ const data = [
   {
     img: 'img/1c5469059ec3475582a6f6129b6ad3aed940c4d0.jpg',
     tag: 'HR & Recruting',
-    info: 'HR  Management and Analytics',
+    info: 'HR Management and Analytics', // в макете лишний пробел после HR
     price: 200,
     name: 'Leslie Alexander Li',
   },
