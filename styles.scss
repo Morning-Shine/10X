@@ -36,7 +36,7 @@ section {
   .img-decor-left {
     position: absolute;
     left: 56px;
-    bottom: 458px;
+    top: 637px;
     z-index: -1;
   }
 }
@@ -61,6 +61,7 @@ footer {
   }
   .courses-info__headers {
     margin-top: -6px;
+    padding-right: 52px;
     margin-bottom: 25px;
     display: flex;
     flex-direction: column;
@@ -72,6 +73,8 @@ footer {
       font-weight: 900;
       font-size: 46px;
       line-height: 130%;
+      letter-spacing: 0%;
+
     }
     .courses-info__h6 {
       font-size: 16px;
@@ -162,6 +165,12 @@ footer {
     color: $text-color-secondary-accent;
     display: flex;
     column-gap: 16px;
+    padding: 1px 0;
+    margin-top: 20px;
+    .courses-info__load-more-image{
+      width: 24px;
+      height: 24px;
+    }
   }
   .courses-info__load-more--hidden {
     display: none;
@@ -234,6 +243,7 @@ footer {
       font-weight: 700;
       font-size: 20px;
       line-height: 150%;
+      letter-spacing: 0%;
     }
     .card_add-info {
       display: flex;
